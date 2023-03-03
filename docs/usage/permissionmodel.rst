@@ -40,7 +40,6 @@ For example, the following command will annotate a namespace to allow privileged
 movers:
 
 .. code-block:: sh
-  :emphasize-lines: 12,4
 
   $ kubectl annotate ns/elevated-demo volsync.backube/privileged-movers=true
   namespace/elevated-demo annotated
