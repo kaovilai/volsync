@@ -39,8 +39,8 @@ value of ``true`` before granting elevated privileges to the mover Pods.
 For example, the following command will annotate a namespace to allow privileged
 movers:
 
-.. code-block:: console
-   :emphasize-lines: 12
+.. code-block:: sh
+  :emphasize-lines: 12
 
   $ kubectl annotate ns/elevated-demo volsync.backube/privileged-movers=true
   namespace/elevated-demo annotated
