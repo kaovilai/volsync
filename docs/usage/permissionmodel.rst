@@ -22,17 +22,7 @@ privileges depends on the data to be replicated and the security model for the
 cluster(s).
 
 Affected movers
-===============
 
-The current set of movers that support this dual permission model is:
-
-- rclone
-- restic
-- rsync-tls
-- syncthing
-
-.. note::
-  The legacy rsync mover that uses ssh as the transport only supports the elevated permission model.
 
 Controlling mover permissions
 =============================
