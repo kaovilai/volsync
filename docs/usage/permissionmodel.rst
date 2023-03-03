@@ -2,13 +2,6 @@
 Mover permission model
 ======================
 
-.. toctree::
-   :hidden:
-
-.. sidebar:: Contents
-
-   .. contents:: Mover permission model
-      :local:
 
 VolSync's data movers are responsible for copying the data from one location to
 the other. These data movers run as Pods in the user's Namespace, where it can
